@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- stylized "l" mark for lioOS -->
+    <path
+        android:fillColor="#33FF99"
+        android:pathData="M46,30 h10 v40 a6,6 0 0 0 6,6 h6 v10 h-8 a14,14 0 0 1 -14,-14 z" />
+    <path
+        android:fillColor="#33FF99"
+        android:pathData="M66,30 m0,6 a6,6 0 1 0 0.1,0 z" />
+</vector>

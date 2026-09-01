@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/hce_service_desc"
+    android:requireDeviceUnlock="false"
+    android:apduServiceBanner="@mipmap/ic_launcher">
+    <!-- A custom AID group. F0010203040506 is a registered-format
+         proprietary AID used by the in-app emulator for reader tests. -->
+    <aid-group
+        android:category="other"
+        android:description="@string/hce_aid_desc">
+        <aid-filter android:name="F0010203040506" />
+        <aid-filter android:name="F0394148148100" />
+    </aid-group>
+</host-apdu-service>
